@@ -6,19 +6,19 @@ intervalo, exiba "Número inválido".
 */
 let numeroDia = parseInt(prompt("Digite um número de 1 a 7:"));
 
-if (numeroDia === 1) { 
+if (numeroDia == 1) { 
     alert("Domingo");
-} else if (numeroDia === 2) {
+} else if (numeroDia == 2) {
     alert("Segunda-feira");
-} else if (numeroDia === 3) {
+} else if (numeroDia == 3) {
     alert("Terça-feira");
-} else if (numeroDia === 4) {
+} else if (numeroDia == 4) {
     alert("Quarta-feira");
-} else if (numeroDia === 5) {
+} else if (numeroDia == 5) {
     alert("Quinta-feira");
-} else if (numeroDia === 6) {
+} else if (numeroDia == 6) {
     alert("Sexta-feira");   
-} else if (numeroDia === 7) {
+} else if (numeroDia == 7) {
     alert("Sábado");
 } else {
     alert("Número inválido");
@@ -98,7 +98,7 @@ do {
 */
 console.log("Números pares de 1 a 20:");
 for (let i = 1; i <= 20; i++) {
-    if (i % 2 === 0) {
+    if (i % 2 == 0) {
         console.log(i);
     }   
 }
@@ -125,6 +125,7 @@ alert("Parabéns, você acertou!");
 que 50, você pode sortear de novo. Use um laço do...while para simular isso. O sorteio (simulado por uma
 variável) acontece dentro do laço, e o laço continua enquanto o numeroSorteado for maior que 50.
  */
+
 let numeroSorteado;
 console.log("Sorteio de número da sorte:");
 do {
