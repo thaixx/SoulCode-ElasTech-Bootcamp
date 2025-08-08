@@ -66,7 +66,7 @@ resultado. A cada volta do laço, adicione o número atual à variável soma. No
 */
 
 let soma = 0;
-for (let i = 1; i <= 5; i++) {
+for (let i = 1; i <= 5; i++) { //i+=1
     soma += i; // soma = soma + i
 }
 alert("A soma dos números de 1 a 5 é: " + soma);
