@@ -32,7 +32,7 @@ const produtos = [
   { nome: "Monitor 27\"", preco: 1200, emEstoque: true },
   { nome: "Headset", preco: 250, emEstoque: true },
   { nome: "Webcam HD", preco: 200, emEstoque: false },
-  { nome: "Cadeira Gamer", preco: 900, emEstoque: true }
+  { nome: "Cadeira Gamer", preco: 900, emEstoque: false }
 ];
 
 // Exibir toda a estrutura de produtos
