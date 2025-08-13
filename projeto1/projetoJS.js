@@ -47,7 +47,7 @@ console.log(`Valor total em estoque: R$ ${totalEmEstoque.toFixed(2)}`);
 // Criar novo array com 10% de desconto
 const produtosComDesconto = produtos.map(prod => { //faz um map e "passa" pelos produtos uma função, que retorna sua informações com o valor atualizado 
   return {
-    nome: prod.nome,
+    nome: prod.nome, 
     preco: Number((prod.preco * 0.9).toFixed(2)), //number só pra garantir que vai ser sempre número
     emEstoque: prod.emEstoque
   };
