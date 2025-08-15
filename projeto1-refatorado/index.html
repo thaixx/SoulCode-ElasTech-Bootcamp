@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>ElasTech Store - Catálogo de Produtos</title>
+    </head>
+    <body>
+
+        <header>
+            <div class="nav-container">
+                <h1 class="logo"><span>ElasTech</span> store</h1>
+                <nav>
+                    <ul class="menu-ul">
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">Produtos</a></li>
+                        <li><a href="#">Promoções</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="container">
+            <section class="acoes">
+                <button id="btn-desconto">Aplicar 10% de Desconto</button>
+                <button id="btn-filtrar">Mostrar Apenas Disponíveis</button>
+                <button id="btn-mostrar-todos">Mostrar Todos</button>
+            </section>
+
+            <section id="product-grid" class="product-grid"></section>
+        </main>
+
+        <footer>
+            <div class="container">
+                <p>Valor total dos itens em estoque: <strong id="valor-total-estoque"></strong></p>
+                <div id="log-loops"></div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
